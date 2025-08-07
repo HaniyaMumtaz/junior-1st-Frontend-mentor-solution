@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color:  hsl(214, 17%, 92%);
+}
+
+.purple-div{
+    padding: 20px 20px 30px 20px;
+    max-width: 430px;
+    width: 430px;
+    max-height: 200px;
+    height: 200px;
+    background-color:  hsl(263, 55%, 52%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.gray-div{
+    max-width: 200px;
+    width: 200px;
+    max-height: 210px;
+    height: 210px;
+    background-color:  hsl(217, 19%, 35%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 585px;
+}
+
+.short-white-div{
+    padding: 20px;
+    max-width: 180px;
+    width: 180px;
+    max-height: 180px;
+    height: 180px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+
+.black-div{
+    max-width: 450px;
+    width: 450px;
+    max-height: 180px;
+    height: 180px;
+    padding: 20px;
+    background-color:  hsl(219, 29%, 14%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%) ;
+    position: absolute;
+    top: 320px;
+    left: 330px;
+}
+
+.short-white-div .normal-p{
+    color:  hsl(217, 19%, 35%);
+}
+
+.black-div .normal-p{
+        color:  hsl(0, 0%, 81%);
+
+}
+
+.long-white-div{
+    max-width: 180px;
+    width: 180px;
+    max-height: 450px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  hsl(0, 0%, 100%);
+    position: absolute;
+    left: 840px;
+    top: 50px;
+}
+
+.long-white-div .normal-p{
+    color:  hsl(217, 19%, 35%);
+}
+
+.name{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.graduate{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.normal-p{
+    font-size: 12px;
+    color: hsl(0, 0%, 81%);
+}
+
+.bold-p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+img{
+    display: inline-block;
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+.section{
+    display: inline-block;
+    margin: 0px 0px 10px 20px;
+}
+
+.attribution { 
+    position: absolute;
+    top: 570px;
+    left: 400px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
